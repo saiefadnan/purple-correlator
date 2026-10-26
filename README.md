@@ -6,8 +6,8 @@ MITRE ATT&CK technique. The output is the defender's view of an attack: which
 techniques ran, from which source, when.
 
 Pair it with the sibling projects: attack your `lab-builder` targets with
-`attack-surface-mapper` (or a scanner), then feed the targets' access logs
-here to see your own activity mapped to ATT&CK.
+`attack-surface-mapper` (recon) and `webscan` (web scan), then feed the
+targets' access logs here to see your own activity mapped to ATT&CK.
 
 > Use only on logs from systems you own or are authorized to analyze.
 
